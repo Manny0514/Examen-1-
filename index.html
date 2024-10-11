@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Conceptos y Descripciones en HTML</h1>
+    
+    <table>
+        <tr>
+            <th>Concepto</th>
+            <th>Descripción</th>
+            <th>Concepto</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>Tabla en HTML</td>
+            <td>Las tablas HTML organizan datos en filas y columnas usando las etiquetas &lt;table&gt; y &lt;/table&gt;.</td>
+            <td>Formulario en HTML</td>
+            <td>Un formulario permite ingresar y enviar datos a un servidor a través de campos de entrada, botones, etc.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta table</td>
+            <td>La etiqueta &lt;table&gt; crea una tabla en HTML5, conteniendo filas (&lt;tr&gt;) y celdas (&lt;td&gt;).</td>
+            <td>Etiqueta form</td>
+            <td>El elemento &lt;form&gt; crea una sección interactiva para enviar información a un servidor web.</td>
+        </tr>
+        <tr>
+            <td>Atributos de table</td>
+            <td>Atributos como align, bgcolor, y border permiten personalizar la apariencia de una tabla.</td>
+            <td>Etiqueta input</td>
+            <td>Elemento para crear campos de entrada en formularios HTML, como texto, contraseña, y botones.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta tr</td>
+            <td>La etiqueta &lt;tr&gt; define una fila en una tabla HTML.</td>
+            <td>Etiqueta label</td>
+            <td>El elemento &lt;label&gt; vincula un texto con un campo de entrada para mejorar la accesibilidad.</td>
+        </tr>
+        <tr>
+            <td>Atributo tr</td>
+            <td>Alineación de las filas: left, center, right, justify, char.</td>
+            <td>Etiqueta select</td>
+            <td>El elemento &lt;select&gt; crea un menú desplegable en formularios HTML.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta td y th</td>
+            <td>• &lt;td&gt; define una celda de datos. <br> • &lt;th&gt; define una celda de encabezado, con texto en negrita.</td>
+            <td>Etiqueta textarea</td>
+            <td>Permite a los usuarios ingresar texto en varias líneas dentro de un formulario HTML.</td>
+        </tr>
+        <tr>
+            <td>Atributos de td y th</td>
+            <td>• rowspan y colspan permiten que una celda abarque varias filas o columnas.</td>
+            <td>Etiqueta fieldset, legend</td>
+            <td>El elemento &lt;fieldset&gt; agrupa controles de un formulario y &lt;legend&gt; proporciona una leyenda.</td>
+        </tr>
+        <tr>
+            <td>Tablas avanzadas</td>
+            <td></td>
+            <td>Etiqueta meter</td>
+            <td>Representa una medición escalar, como el nivel de una batería.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta thead</td>
+            <td>Define un grupo de filas de encabezado en una tabla HTML.</td>
+            <td>Etiqueta progress</td>
+            <td>Muestra el progreso de una tarea en curso.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta tfoot</td>
+            <td>Define un grupo de filas de pie de tabla.</td>
+            <td>Etiqueta datalist</td>
+            <td>Proporciona una lista predefinida de opciones para un campo de entrada.</td>
+        </tr>
+        <tr>
+            <td>Etiqueta tbody</td>
+            <td>Define el cuerpo principal de una tabla HTML.</td>
+            <td>Etiqueta summary</td>
+            <td>Ofrece un resumen o descripción para detalles interactivos como &lt;details&gt;.</td>
+        </tr>
+    </table>
+
+    <title>Tema 2: Estructuración de una Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #005f6a;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tema 2: Estructuración de una Página Web</h1>
+        
+        <h2>Contenedor (wrapper):</h2>
+        <p>El contenedor es un elemento que envuelve todos los demás componentes de la página. Generalmente, se utiliza para establecer un ancho máximo o mantener la estructura centralizada y ordenada en la pantalla. Proporciona un marco dentro del cual se colocan otros elementos como la cabecera, el contenido, el menú, etc.</p>
+        
+        <h2>Cabecera (header):</h2>
+        <p>La cabecera suele ser la parte superior de la página y puede contener el logotipo del sitio, el título, eslóganes, enlaces de navegación principales o cualquier otra información importante que desee destacarse en la parte superior de la web.</p>
+        
+        <h2>Contenido (content):</h2>
+        <p>El contenido es la parte central o principal de la página, donde se presenta la información específica o los servicios que ofrece el sitio web. Puede incluir texto, imágenes, videos y otros medios, dependiendo del propósito de la página.</p>
+        
+        <h2>Menú (menu):</h2>
+        <p>El menú es el área destinada a la navegación del sitio web. Usualmente se presenta en forma de lista de enlaces a las diferentes secciones o páginas. Puede estar ubicado en la cabecera, el lateral o en cualquier parte que facilite la navegación para los usuarios.</p>
+        
+        <h2>Pie (footer):</h2>
+        <p>El pie de página es la sección inferior de una página web. Su función es generalmente mostrar enlaces secundarios, información de contacto, derechos de autor o cualquier otro recurso relevante como políticas de privacidad o términos de servicio.</p>
+        
+        <h2>Lateral (sidebar):</h2>
+        <p>El lateral es una sección que generalmente aparece a un lado del contenido principal. Se utiliza para presentar información adicional, como enlaces a artículos relacionados, publicidad, menús secundarios, o widgets como calendarios, búsqueda, etc.</p>
+        
+        <h2>Etiqueta div:</h2>
+        <p>La etiqueta div (abreviatura de division) es un contenedor genérico que se utiliza en HTML para agrupar bloques de contenido o elementos de diseño. Permite estructurar el contenido sin añadir ningún estilo predeterminado, lo que hace que sea altamente personalizable mediante CSS.</p>
+    </div>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 3: Estructuración Semántica de una Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #005f6a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        .advantages {
+            margin-top: 30px;
+        }
+        .advantages ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tema 3: Estructuración Semántica de una Página Web</h1>
+        
+        <p>La estructuración semántica de una página web utiliza etiquetas HTML que no solo definen la estructura visual, sino que también aportan significado al contenido para que sea más accesible tanto para los usuarios como para los motores de búsqueda. A continuación se describen los principales elementos semánticos que ayudan a estructurar el contenido de una manera más clara y lógica:</p>
+        
+        <ul>
+            <li>
+                <strong>&lt;header&gt; (cabecera):</strong>
+                <p>Representa la sección de introducción o el encabezado de una página o sección del documento. Generalmente incluye logotipos, títulos, menús de navegación o enlaces relacionados. Se utiliza en el contexto de todo el documento o en secciones específicas.</p>
+            </li>
+            <li>
+                <strong>&lt;nav&gt; (navegación):</strong>
+                <p>Indica una sección que contiene enlaces de navegación. Esta etiqueta se utiliza específicamente para agrupar el menú principal de la página o los enlaces a otras secciones importantes. Facilita la navegación dentro del sitio web.</p>
+            </li>
+            <li>
+                <strong>&lt;section&gt; (sección):</strong>
+                <p>Agrupa contenido relacionado dentro de una página web. Cada sección puede tener su propio encabezado y contener varios tipos de información o contenido multimedia. Es útil para estructurar la página en partes bien definidas.</p>
+            </li>
+            <li>
+                <strong>&lt;article&gt; (artículo):</strong>
+                <p>Representa una unidad de contenido autónoma y autocontenida, como un artículo de blog, una noticia o una publicación individual. Generalmente incluye encabezados, párrafos, imágenes y otros elementos que componen un bloque coherente de contenido.</p>
+            </li>
+            <li>
+                <strong>&lt;aside&gt; (contenido complementario):</strong>
+                <p>Se utiliza para contenido relacionado de manera secundaria con el contenido principal, como anuncios, enlaces a recursos adicionales, barras laterales con widgets o información complementaria.</p>
+            </li>
+            <li>
+                <strong>&lt;footer&gt; (pie de página):</strong>
+                <p>Representa el pie de una sección o de toda la página. Incluye información como derechos de autor, enlaces a términos y condiciones, políticas de privacidad, o cualquier otro contenido que suele aparecer al final de una página o sección.</p>
+            </li>
+            <li>
+                <strong>&lt;main&gt; (contenido principal):</strong>
+                <p>Esta etiqueta se usa para identificar el contenido principal de una página, diferenciándolo del contenido repetido como menús, cabeceras o barras laterales.</p>
+            </li>
+            <li>
+                <strong>&lt;h1&gt; - &lt;h6&gt; (encabezados):</strong>
+                <p>Encabezados que estructuran el contenido según su importancia. <strong>&lt;h1&gt;</strong> es el título principal, mientras que <strong>&lt;h2&gt;</strong> a <strong>&lt;h6&gt;</strong> representan subtítulos y niveles secundarios de encabezado.</p>
+            </li>
+            <li>
+                <strong>&lt;figure&gt; y &lt;figcaption&gt; (figura y leyenda):</strong>
+                <p>La etiqueta <strong>&lt;figure&gt;</strong> contiene contenido gráfico, como imágenes, y <strong>&lt;figcaption&gt;</strong> proporciona una descripción o leyenda para esa figura.</p>
+            </li>
+            <li>
+                <strong>&lt;mark&gt; (destacado):</strong>
+                <p>Utilizada para resaltar o destacar partes específicas del texto con importancia o relevancia especial.</p>
+            </li>
+            <li>
+                <strong>&lt;time&gt; (tiempo):</strong>
+                <p>Define una fecha o intervalo de tiempo. Ayuda a identificar los datos relacionados con el tiempo, como la fecha de un artículo.</p>
+            </li>
+            <li>
+                <strong>&lt;address&gt; (dirección):</strong>
+                <p>Se utiliza para mostrar información de contacto, como una dirección física o de correo electrónico.</p>
+            </li>
+        </ul>
+        
+        <div class="advantages">
+            <h2>Ventajas de la estructura semántica:</h2>
+            <ul>
+                <li>Mejora la accesibilidad: Los lectores de pantalla y las tecnologías de asistencia pueden interpretar mejor el contenido y su jerarquía.</li>
+                <li>Optimización para motores de búsqueda (SEO): Los motores de búsqueda valoran la estructura semántica para entender mejor el contenido de una página.</li>
+                <li>Mantenibilidad y claridad: El código es más comprensible y facilita la lectura y el mantenimiento por parte de los desarrolladores.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
